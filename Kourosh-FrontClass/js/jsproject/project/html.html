@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 100px;
+            font-family: 'Droog Heavy';
+            margin-top: 0px;
+            padding: 0px;
+            
+        }
+        button{
+            background-color:#2c3e50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: 2s;
+        }
+        button:hover {
+            background-color: #34495e;
+            cursor: pointer;
+            padding: 10px 60px;
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px #696969;
+        }
+        input{
+            padding: 10px 0px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: 1s;
+            text-align: center;
+        }
+        input:hover {
+            border: 2px solid #34495e;
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px #696969;
+            padding: 10px 20px;
+        }
+        button:active {
+            background-color: #273747;
+            transform: translateY(2px);
+            transition: 0.1s;
+        }
+        .result{
+            transition: 0.5s;
+            font-size: medium;
+        }
+
+    </style>
+
+
+    
+    <p style="font-family: 'Droog Heavy'; font-size: larger;">The</p>
+    <h1>Odd or Even Checker</h1>
+    <p>Enter a number and click the button.</p>
+    <input type="number" id="input" placeholder="Enter a Number"><br><br>
+    <button id="print" onclick="oddeven()">Enter</button><br><br>
+    <p id="result" class="result">You will see the result here</p>
+    <script src="/Kourosh-FrontClass/js/jsproject/project/project.js"></script>
+</body>
+</html>
